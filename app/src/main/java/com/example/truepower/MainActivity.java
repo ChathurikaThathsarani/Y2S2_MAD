@@ -4,7 +4,6 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.view.MenuItem;
-
 import com.google.android.material.bottomnavigation.BottomNavigationItemView;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.navigation.NavigationBarView;
@@ -32,18 +31,23 @@ public class MainActivity extends AppCompatActivity {
                 switch(item.getItemId()){
                     case R.id.home:
                         getSupportFragmentManager().beginTransaction().replace(R.id.container,homeFragment).commit();
+                        setTitle("Home");
                         return true;
                     case R.id.health:
                         getSupportFragmentManager().beginTransaction().replace(R.id.container,healthFragment).commit();
+                        setTitle("My Health");
                         return true;
                     case R.id.meal:
                         getSupportFragmentManager().beginTransaction().replace(R.id.container,mealFragment).commit();
+                        setTitle("My Meal");
                         return true;
                     case R.id.todo:
                         getSupportFragmentManager().beginTransaction().replace(R.id.container,todoFragment).commit();
+                        setTitle("My Routine");
                         return true;
                     case R.id.workout:
                         getSupportFragmentManager().beginTransaction().replace(R.id.container,workoutFragment).commit();
+                        setTitle("My Workout");
                         return true;
                 }
                 return false;
