@@ -4,16 +4,19 @@
 
     <application
         android:allowBackup="true"
+        android:fontFamily="@style/"
         android:icon="@mipmap/ic_launcher"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.TruePower"
-        android:fontFamily="@style/">
-
+        android:theme="@style/Theme.TruePower">
+        <activity
+            android:name=".StartActivity"
+            android:exported="true"
+            android:label="Start Here"/>
         <activity
             android:name=".ViewRoutine"
             android:exported="true"
-            android:label="View Routine"/>
+            android:label="View Routine" />
         <activity
             android:name=".AddRoutine"
             android:exported="true"

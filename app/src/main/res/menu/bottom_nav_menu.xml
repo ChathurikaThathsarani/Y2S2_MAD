@@ -8,8 +8,8 @@
         android:title=""
         />
     <item android:id="@+id/meal"
-        android:title=""
         android:icon="@drawable/ic_baseline_meals_24"
+        android:title=""
         />
     <item android:id="@+id/workout"
         android:title=""
@@ -17,7 +17,7 @@
         />
     <item android:id="@+id/health"
         android:title=""
-        android:icon="@drawable/ic_baseline_deseases_24"
+        android:icon="@drawable/ic_baseline_health_24"
         />
     <item android:id="@+id/todo"
         android:title=""
