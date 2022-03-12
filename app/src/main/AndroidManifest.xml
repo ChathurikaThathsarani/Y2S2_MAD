@@ -5,13 +5,23 @@
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.TruePower">
+        android:theme="@style/Theme.TruePower"
+        android:fontFamily="@style/">
+
+        <activity
+            android:name=".ViewRoutine"
+            android:exported="true"
+            android:label="View Routine"/>
+        <activity
+            android:name=".AddRoutine"
+            android:exported="true"
+            android:label="Add Routine" />
         <activity
             android:name=".MainActivity"
-            android:exported="true">
+            android:exported="true"
+            android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
