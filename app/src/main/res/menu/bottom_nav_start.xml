@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:textColor="@color/white">
 
     <item android:id="@+id/start"
         android:icon="@drawable/ic_baseline_start_24"
-        android:title="Start"
+        android:title=""
         />
     <item android:id="@+id/login"
-        android:title="Login"
+        android:title=""
         android:icon="@drawable/ic_baseline_login_24"
         />
     <item android:id="@+id/signup"
-        android:title="Sign Up"
+        android:title=""
         android:icon="@drawable/ic_baseline_signup_24"
         />
 

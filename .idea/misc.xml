@@ -28,6 +28,7 @@
         <entry key="..\:/Users/Tech/Desktop/SLIIT/Second Year/2022 February Second Semester/IT2010-MAD/Y2S2_MAD/app/src/main/res/drawable/Gradiant.xml" value="0.2388888888888889" />
         <entry key="..\:/Users/Tech/Desktop/SLIIT/Second Year/2022 February Second Semester/IT2010-MAD/Y2S2_MAD/app/src/main/res/drawable/ic_baseline_add.xml" value="0.14635416666666667" />
         <entry key="..\:/Users/Tech/Desktop/SLIIT/Second Year/2022 February Second Semester/IT2010-MAD/Y2S2_MAD/app/src/main/res/drawable/ic_baseline_deseases_24.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/Tech/Desktop/SLIIT/Second Year/2022 February Second Semester/IT2010-MAD/Y2S2_MAD/app/src/main/res/drawable/ic_baseline_health_24.xml" value="0.19791666666666666" />
         <entry key="..\:/Users/Tech/Desktop/SLIIT/Second Year/2022 February Second Semester/IT2010-MAD/Y2S2_MAD/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.14635416666666667" />
         <entry key="..\:/Users/Tech/Desktop/SLIIT/Second Year/2022 February Second Semester/IT2010-MAD/Y2S2_MAD/app/src/main/res/drawable/ic_baseline_meals_24.xml" value="0.19444444444444445" />
         <entry key="..\:/Users/Tech/Desktop/SLIIT/Second Year/2022 February Second Semester/IT2010-MAD/Y2S2_MAD/app/src/main/res/drawable/ic_baseline_view_24.xml" value="0.23333333333333334" />
@@ -39,13 +40,16 @@
         <entry key="..\:/Users/Tech/Desktop/SLIIT/Second Year/2022 February Second Semester/IT2010-MAD/Y2S2_MAD/app/src/main/res/drawable/round_border.xml" value="0.24444444444444444" />
         <entry key="..\:/Users/Tech/Desktop/SLIIT/Second Year/2022 February Second Semester/IT2010-MAD/Y2S2_MAD/app/src/main/res/layout/activity_add_routine.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Tech/Desktop/SLIIT/Second Year/2022 February Second Semester/IT2010-MAD/Y2S2_MAD/app/src/main/res/layout/activity_main.xml" value="0.16032608695652173" />
+        <entry key="..\:/Users/Tech/Desktop/SLIIT/Second Year/2022 February Second Semester/IT2010-MAD/Y2S2_MAD/app/src/main/res/layout/activity_start.xml" value="0.16927083333333334" />
         <entry key="..\:/Users/Tech/Desktop/SLIIT/Second Year/2022 February Second Semester/IT2010-MAD/Y2S2_MAD/app/src/main/res/layout/activity_view_routine.xml" value="0.19583333333333333" />
         <entry key="..\:/Users/Tech/Desktop/SLIIT/Second Year/2022 February Second Semester/IT2010-MAD/Y2S2_MAD/app/src/main/res/layout/fragment_health.xml" value="0.1793478260869565" />
         <entry key="..\:/Users/Tech/Desktop/SLIIT/Second Year/2022 February Second Semester/IT2010-MAD/Y2S2_MAD/app/src/main/res/layout/fragment_home.xml" value="0.2" />
         <entry key="..\:/Users/Tech/Desktop/SLIIT/Second Year/2022 February Second Semester/IT2010-MAD/Y2S2_MAD/app/src/main/res/layout/fragment_meal.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/Tech/Desktop/SLIIT/Second Year/2022 February Second Semester/IT2010-MAD/Y2S2_MAD/app/src/main/res/layout/fragment_start.xml" value="0.23596014492753623" />
         <entry key="..\:/Users/Tech/Desktop/SLIIT/Second Year/2022 February Second Semester/IT2010-MAD/Y2S2_MAD/app/src/main/res/layout/fragment_todo.xml" value="0.1793478260869565" />
         <entry key="..\:/Users/Tech/Desktop/SLIIT/Second Year/2022 February Second Semester/IT2010-MAD/Y2S2_MAD/app/src/main/res/layout/fragment_workout.xml" value="0.1793478260869565" />
         <entry key="..\:/Users/Tech/Desktop/SLIIT/Second Year/2022 February Second Semester/IT2010-MAD/Y2S2_MAD/app/src/main/res/menu/bottom_nav_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Tech/Desktop/SLIIT/Second Year/2022 February Second Semester/IT2010-MAD/Y2S2_MAD/app/src/main/res/menu/bottom_nav_start.xml" value="0.16927083333333334" />
         <entry key="..\:/Users/Tech/Desktop/SLIIT/Second Year/2022 February Second Semester/IT2010-MAD/Y2S2_MAD/app/src/main/res/mipmap-anydpi-v26/ic_baseline_home.xml" value="0.14635416666666667" />
         <entry key="..\:/Users/Tech/Desktop/SLIIT/Second Year/2022 February Second Semester/IT2010-MAD/Y2S2_MAD/app/src/main/res/mipmap-anydpi-v26/ic_baseline_home_round.xml" value="0.14635416666666667" />
         <entry key="..\:/Users/Tech/Desktop/SLIIT/Second Year/2022 February Second Semester/IT2010-MAD/Y2S2_MAD/app/src/main/res/mipmap-anydpi-v26/ic_baseline_viewdata.xml" value="0.23333333333333334" />
