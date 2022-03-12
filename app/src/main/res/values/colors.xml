@@ -9,5 +9,7 @@
     <color name="white">#FFFFFFFF</color>
     <color name="pink">#FF69B4</color>
     <color name="light_pink">#ffc0cb</color>
-
+    <color name="black_p">#313552</color>
+    <color name="red">#B8405E</color>
+    <color name="test_1">#4D3B44</color>
 </resources>

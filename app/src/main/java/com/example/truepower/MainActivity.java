@@ -2,8 +2,11 @@ package com.example.truepower;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.view.View;
+
 import com.google.android.material.bottomnavigation.BottomNavigationItemView;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.navigation.NavigationBarView;
@@ -16,6 +19,16 @@ public class MainActivity extends AppCompatActivity {
     TodoFragment todoFragment = new TodoFragment();
     WorkoutFragment workoutFragment = new WorkoutFragment();
     HealthFragment healthFragment = new HealthFragment();
+
+    public void OpenAddRoutine(View view){
+        Intent intent = new Intent(this, AddRoutine.class);
+        startActivity(intent);
+    }
+
+    public void OpenViewRoutine(View view){
+        Intent intent = new Intent(this, ViewRoutine.class);
+        startActivity(intent);
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
