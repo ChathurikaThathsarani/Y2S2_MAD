@@ -10,9 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TruePower">
         <activity
+            android:name=".EditRoutine"
+            android:exported="true"
+            android:label="My Routine"/>
+        <activity
             android:name=".StartActivity"
             android:exported="true"
-            android:label="Start Here"/>
+            android:label="Start Here" />
         <activity
             android:name=".ViewRoutine"
             android:exported="true"
@@ -20,7 +24,7 @@
         <activity
             android:name=".AddRoutine"
             android:exported="true"
-            android:label="Add Routine" />
+            android:label="My Routine" />
         <activity
             android:name=".MainActivity"
             android:exported="true"
