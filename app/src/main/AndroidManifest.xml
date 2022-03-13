@@ -9,10 +9,23 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.TruePower">
+
+        <activity
+            android:name=".EditMeal"
+            android:exported="true"
+            android:label="Edit Meal"/>
+        <activity
+            android:name=".ViewMeal"
+            android:exported="true"
+            android:label="View Meal"/>
+        <activity
+            android:name=".AddMeal"
+            android:exported="true"
+            android:label="Add Meal"/>
         <activity
             android:name=".EditRoutine"
             android:exported="true"
-            android:label="My Routine"/>
+            android:label="My Routine" />
         <activity
             android:name=".StartActivity"
             android:exported="true"
