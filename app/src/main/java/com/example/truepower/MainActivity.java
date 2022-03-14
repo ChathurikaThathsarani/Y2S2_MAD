@@ -25,17 +25,8 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void OpenViewRoutine(View view){
-        Intent intent = new Intent(this, ViewRoutine.class);
-        startActivity(intent);
-    }
-
     public void OpenAddMeal(View view){
         Intent intent = new Intent(this, AddMeal.class);
-        startActivity(intent);
-    }
-    public void OpenViewMeal(View view){
-        Intent intent = new Intent(this, ViewMeal.class);
         startActivity(intent);
     }
 

@@ -9,19 +9,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.TruePower">
-
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true"
+            android:label=""/>
         <activity
             android:name=".EditMeal"
             android:exported="true"
-            android:label="Edit Meal"/>
-        <activity
-            android:name=".ViewMeal"
-            android:exported="true"
-            android:label="View Meal"/>
+            android:label="Edit Meal" />
         <activity
             android:name=".AddMeal"
             android:exported="true"
-            android:label="Add Meal"/>
+            android:label="Add Meal" />
         <activity
             android:name=".EditRoutine"
             android:exported="true"
@@ -31,17 +30,13 @@
             android:exported="true"
             android:label="Start Here" />
         <activity
-            android:name=".ViewRoutine"
-            android:exported="true"
-            android:label="View Routine" />
-        <activity
             android:name=".AddRoutine"
             android:exported="true"
             android:label="My Routine" />
         <activity
             android:name=".MainActivity"
             android:exported="true"
-            android:label="@string/app_name">
+            android:label="True Power">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

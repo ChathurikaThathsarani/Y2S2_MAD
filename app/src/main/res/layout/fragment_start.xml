@@ -28,20 +28,23 @@
         tools:ignore="MissingConstraints" />
 
     <GridLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="400dp"
+        android:layout_height="255dp"
         android:layout_below="@id/user_view"
-        android:rowCount="1"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="75dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="71dp"
         android:columnCount="2"
-        android:layout_marginTop="60dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        android:layout_marginBottom="20dp"
-        >
+        android:rowCount="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <androidx.cardview.widget.CardView
             android:layout_width="71dp"
-            android:layout_height="450dp"
+            android:layout_height="200dp"
             android:layout_row="0"
             android:layout_rowWeight="0"
             android:layout_column="0"
@@ -68,7 +71,7 @@
                     tools:ignore="SpeakableTextPresentCheck" />
 
                 <TextView
-                    android:layout_width="wrap_content"
+                    android:layout_width="52dp"
                     android:layout_height="wrap_content"
                     android:text="Login"
                     android:textAlignment="center"
