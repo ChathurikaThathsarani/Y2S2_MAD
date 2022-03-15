@@ -10,9 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TruePower">
         <activity
+            android:name=".Reminder"
+            android:exported="true"
+            android:label="Reminder"/>
+        <activity
             android:name=".SplashScreen"
             android:exported="true"
-            android:label=""/>
+            android:label="" />
         <activity
             android:name=".EditMeal"
             android:exported="true"
@@ -24,7 +28,7 @@
         <activity
             android:name=".EditRoutine"
             android:exported="true"
-            android:label="My Routine" />
+            android:label="Edit Routine" />
         <activity
             android:name=".StartActivity"
             android:exported="true"
@@ -32,7 +36,7 @@
         <activity
             android:name=".AddRoutine"
             android:exported="true"
-            android:label="My Routine" />
+            android:label="Add Routine" />
         <activity
             android:name=".MainActivity"
             android:exported="true"

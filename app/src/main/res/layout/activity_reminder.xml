@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Reminder"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/backapp">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:hint="Enter the task"
+        android:minHeight="48dp"
+        android:textColorHint="@color/test_1" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:hint="Enter the date"
+        android:minHeight="48dp"
+        android:textColorHint="@color/test_1" />
+
+    <TimePicker
+        android:layout_width="363dp"
+        android:layout_height="367dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:text="Set"
+            android:background="@drawable/round_border" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:background="@drawable/round_border"/>
+
+    </LinearLayout>
+
+</LinearLayout>

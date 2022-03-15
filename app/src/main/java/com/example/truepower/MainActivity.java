@@ -30,6 +30,11 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void OpenReminder(View view){
+        Intent intent = new Intent(this, Reminder.class);
+        startActivity(intent);
+    }
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
